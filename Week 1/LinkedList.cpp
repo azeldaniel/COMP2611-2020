@@ -24,7 +24,7 @@ struct Node
  * 6. Deleting the node at the head of a list.
  * 7. Retrieving the node at a given index of a list.
  * 8. Retrieving the data of the node at a given index of a list.
- * 9. Retrieving the node at the tail of a list.
+ * 9. Determining if a node is contained in a list.
  * 10. Determining the size of a list.
  * 11. Reversing the order of the nodes in a list.
  */
@@ -92,7 +92,7 @@ int main()
 
     /*
 
-    // 6. Deleting the node at the head of a list.
+    // 6. Retrieving the node at a given index of a list.
     int index = 3;
     np = find(top, index);
     if (np != NULL)
@@ -102,13 +102,13 @@ int main()
 
     /*
 
-    // 7. Retrieving the node at a given index of a list.
+    // 7. Retrieving the data of the node at a given index of a list.
     int found = get(top, 6);
     cout << "\nValue at position 6 is " << found << endl;
 
     /*
 
-    // 8. Retrieving the data of the node at a given index of a list.
+    // 8. Retrieving the node at the tail of a list.
     last = getLast(top);
     if (last != NULL)
         cout << "\nData in the last node is " << last->data << "\n";
@@ -117,7 +117,7 @@ int main()
 
     /*
 
-    // 9. Retrieving the node at the tail of a list.
+    // 9. Determining if a node is contained in a list.
     int key;
     cout << "\nPlease enter a key to search for or -1 to stop searching: ";
     cin >> key;
