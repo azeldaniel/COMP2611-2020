@@ -24,9 +24,10 @@ struct Node
  * 6. Deleting the node at the head of a list.
  * 7. Retrieving the node at a given index of a list.
  * 8. Retrieving the data of the node at a given index of a list.
- * 9. Determining if a node is contained in a list.
- * 10. Determining the size of a list.
- * 11. Reversing the order of the nodes in a list.
+ * 9. Retrieving the last node of a list.
+ * 10. Determining if a node is contained in a list.
+ * 11. Determining the size of a list.
+ * 12. Reversing the order of the nodes in a list.
  */
 Node *createNode(int n);
 Node *insertAtHead(Node *top, int n);
@@ -85,7 +86,7 @@ int main()
     /*
 
     // 5. Inserting a new node at a given index of a list.
-    cout << "\nNow about to insert 333 at position 5 of the list ...\n";
+    cout << "\nNow about to insert 333 at index 5 of the list ...\n";
     cout << "List: ";
     top = insertAtIndex(top, 333, 5);
     printList(top);
@@ -104,7 +105,7 @@ int main()
 
     // 7. Retrieving the data of the node at a given index of a list.
     int found = get(top, 6);
-    cout << "\nValue at position 6 is " << found << endl;
+    cout << "\nValue at index 6 is " << found << endl;
 
     /*
 
