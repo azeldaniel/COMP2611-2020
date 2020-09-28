@@ -9,3 +9,7 @@ Review of linked lists, stacks and queues.
 ## Week 2
 
 More practice with linked lists, stacks and queues (including recursive problems).
+
+## Week 3
+
+Practice with recursive problems and merge operations on arrays, and storing structs in linked lists.  
