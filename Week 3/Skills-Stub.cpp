@@ -5,14 +5,14 @@ using namespace std;
 
 struct Skill
 {
-   string name;
-   int years;
+    string name;
+    int years;
 };
 
 struct Node
 {
-   Skill data;
-   Node *next;
+    Skill data;
+    Node *next;
 };
 
 // function prototypes
@@ -26,43 +26,43 @@ void printList(Node *top);
 int main()
 {
 
-   int len;
-   Node *top, *last;
+    int len;
+    Node *top, *last;
 
-   cout << "\nNow about to insert skills for this person ...\n";
-   cout << endl;
+    cout << "\nNow about to insert skills for this person ...\n";
+    cout << endl;
 
-   top = NULL; // no elements as yet so top must be NULL
+    top = NULL; // no elements as yet so top must be NULL
 
-   top = insertAtHead(top, "Programming", 10);
-   top = insertAtHead(top, "Technical_Documentation", 5);
-   top = insertAtHead(top, "Project_Management", 3);
+    top = insertAtHead(top, "Programming", 10);
+    top = insertAtHead(top, "Technical_Documentation", 5);
+    top = insertAtHead(top, "Project_Management", 3);
 
-   len = size(top);
+    len = size(top);
 
-   cout << "Person possesses the following " << len << " skills: " << endl;
-   printList(top);
+    cout << "Person possesses the following " << len << " skills: " << endl;
+    printList(top);
 
-   string key;
+    string key;
 
-   cout << "\nPlease enter a skill to search for or 0 to stop searching: ";
-   cin >> key;
+    cout << "\nPlease enter a skill to search for or 0 to stop searching: ";
+    cin >> key;
 
-   while (key != "0")
-   {
+    while (key != "0")
+    {
 
-      if (contains(top, key))
-         cout << "\n"
-              << key << " is contained in the list.\n";
-      else
-         cout << "\n"
-              << key << " is not present in the list.\n";
+        if (contains(top, key))
+            cout << "\n"
+                 << key << " is contained in the list.\n";
+        else
+            cout << "\n"
+                 << key << " is not present in the list.\n";
 
-      cout << "\nPlease enter a key to search for or 0 to stop searching: ";
-      cin >> key;
-   }
+        cout << "\nPlease enter a key to search for or 0 to stop searching: ";
+        cin >> key;
+    }
 
-   cout << "\n*** End of Linked List operations ***" << endl;
+    cout << "\n*** End of Linked List operations ***" << endl;
 
-   return 0;
+    return 0;
 }

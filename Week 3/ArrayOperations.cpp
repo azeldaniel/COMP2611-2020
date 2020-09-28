@@ -13,42 +13,42 @@ void printArray(int a[], int i, int n)
 
 bool containsArray(int a[], int i, int n, int key)
 {
-	return false;
+    return false;
 }
 
 int sumArray(int a[], int i, int n)
 {
-	return 0;
+    return 0;
 }
 
 int maxArray(int a[], int i, int n)
 {
-	return INT_MIN;
+    return INT_MIN;
 }
 
 int main()
 {
 
-	int a[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-	int key;
-	bool res;
-	int sum, max;
+    int a[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    int key;
+    bool res;
+    int sum, max;
 
-	printArray(a, 0, 10);
+    printArray(a, 0, 10);
 
-	key = 75;
-	res = containsArray(a, 0, 10, key);
+    key = 75;
+    res = containsArray(a, 0, 10, key);
 
-	if (res == true)
-		cout << key << " found in array." << endl;
-	else
-		cout << key << " not found in array." << endl;
+    if (res == true)
+        cout << key << " found in array." << endl;
+    else
+        cout << key << " not found in array." << endl;
 
-	sum = sumArray(a, 0, 10);
-	cout << "The sum of the elements in the array is: " << sum << endl;
+    sum = sumArray(a, 0, 10);
+    cout << "The sum of the elements in the array is: " << sum << endl;
 
-	max = maxArray(a, 0, 10);
-	cout << "The maximum of the elements in the array is: " << max << endl;
+    max = maxArray(a, 0, 10);
+    cout << "The maximum of the elements in the array is: " << max << endl;
 
-	return 0;
+    return 0;
 }
