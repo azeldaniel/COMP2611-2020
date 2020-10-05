@@ -1,0 +1,5 @@
+Harry 	3 Programming 10 	Database_Administration 5 	Project_Management 3
+Sally 	2 Networking 10 	Website_Development 5 
+Peter	3 Training 15		Technical_documentation	 15	Website_Development 10
+Eva	0
+END
