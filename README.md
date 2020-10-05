@@ -13,3 +13,7 @@ More practice with linked lists, stacks and queues (including recursive problems
 ## Week 3
 
 Practice with recursive problems and merge operations on arrays, and storing structs in linked lists.  
+
+## Week 4
+
+Practice with Binary Trees (traversals and other recursive functions). [Assignment 1](/tree/master/Assignment%201) given.
