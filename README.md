@@ -16,4 +16,4 @@ Practice with recursive problems and merge operations on arrays, and storing str
 
 ## Week 4
 
-Practice with Binary Trees (traversals and other recursive functions). [Assignment 1](/tree/master/Assignment%201) given.
+Practice with Binary Trees (traversals and other recursive functions). [Assignment 1](/Assignment%201) given.
