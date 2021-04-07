@@ -1,3 +1,7 @@
+*Notice: This repo will be archived on May 14th, 2021. All solutions will be removed.*
+
+---
+
 # COMP2611-2020
 
 This repository contains lab material for Data Structures at the University of the West Indies, St. Augustine. Note that this repository created for code sharing convenience, and all solutions may be redacted at the end of the academic year in 2021.
